@@ -821,8 +821,8 @@ A: Приложение автоматически обрабатывает ош
 
 ## Контакты
 
-- Автор: [Ваше Имя]
-- Email: ваш.email@example.com
+- Автор: Skaylic
+- Email: skaylic@yandex.ru
 - Issues: [GitHub Issues](https://github.com/yourusername/yandex-geocoder/issues)
 - Документация API: [Yandex Maps API](https://yandex.ru/dev/maps/geocoder/)
 
