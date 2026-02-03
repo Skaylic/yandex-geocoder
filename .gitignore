@@ -1,0 +1,145 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+.idea/
+*.iws
+*.iml
+*.ipr
+.DS_Store
+
+# Project-specific
+# Кэшированные данные геокодирования
+geocoding_cache/
+cache/
+*.cache
+.cache/
+
+# Результаты экспорта (по умолчанию)
+geocoding_results.xlsx
+results.xlsx
+output.xlsx
+*.xlsx
+*.xls
+*.csv
+!examples/*.csv
+!tests/*.csv
+
+# Конфигурационные файлы с секретами
+.env
+secrets.ini
+config.ini
+config.yaml
+config.yml
+
+# Логи приложения
+geocoder.log
+*.log
+logs/
+
+# Статистика и временные файлы
+statistics.json
+*.json
+!tests/*.json
+temp/
+tmp/
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Docker
+docker-compose.override.yml
+
+# Файлы операционной системы
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+*.swp
+*~
+
+# Бинарные файлы
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Файлы с паролями и ключами
+*.key
+*.pem
+*.crt
+*.cert
+
+# Файлы данных (большие)
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Примеры для исключения (добавляйте вручную нужные файлы для коммита)
+# !examples/addresses_sample.csv
+# !examples/results_sample.xlsx
