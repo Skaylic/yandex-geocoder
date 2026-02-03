@@ -297,13 +297,13 @@ stats = geocoder.export_statistics("statistics.json")
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                       Основное приложение                    │
+│                       Основное приложение                   │
 ├─────────────────────────────────────────────────────────────┤
-│  YandexGeocoder ──┬── RateLimiter ──┬── RetryStrategy       │
-│                   │                  │                       │
-│                   ├── Validator ─────┼── ComponentProcessor  │
-│                   │                  │                       │
-│                   └── Session ───────┴── CacheManager        │
+│  YandexGeocoder ──┬── RateLimiter ───┬── RetryStrategy      │
+│                   │                  │                      │
+│                   ├── Validator ─────┼── ComponentProcessor │
+│                   │                  │                      │
+│                   └── Session ───────┴── CacheManager       │
 └─────────────────────────────────────────────────────────────┘
                               │
 ┌─────────────────────────────────────────────────────────────┐
