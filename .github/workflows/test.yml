@@ -22,7 +22,6 @@ on:
 env:
   PYTHON_VERSION: '3.9'  # Указываем версию Python
   REQUIREMENTS_FILE: 'requirements.txt'  # Файл с зависимостями
-
 jobs:
   test:
     # Название задачи
