@@ -76,7 +76,7 @@ Yandex Maps Geocoder — это мощная Python-библиотека для 
 
 ```bash
 # Клонирование репозитория
-git clone https://github.com/yourusername/yandex-geocoder.git
+git clone https://github.com/Skaylic/yandex-geocoder.git
 cd yandex-geocoder
 
 # Создание виртуального окружения
